@@ -1,20 +1,21 @@
 .tag-1 {
-    background: url(../images/tag-1.png) no-repeat;
+    background: url("../images/tag-1.png") no-repeat;
     z-index: 7;
     display: none;
   }
   .tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
     position: absolute;
     top: 0;
+    display: none;
     left: 0;
     width: 800px;
     height: 620px;
     padding:889px
 }
 .tag-2{
-    position:fixed
-    top:
-    left:
+    position:fixed;
+    top:5px;
+    left:10px;
     width:absolute;
     height:615px;
 }
